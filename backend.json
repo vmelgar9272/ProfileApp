@@ -1,56 +1,23 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "properties": {
-    "cfjjPmDnCyQ8UjDJQkWJmfo1Gzm1": {
-      "type": "object",
-      "properties": {
-        "about": {
-          "type": "string"
-        },
-        "dateJoined": {
-          "type": "string",
-          "format": "date"
-        },
-        "image": {
-          "type": "string",
-          "format": "uri"
-        },
-        "name": {
-          "type": "string"
-        },
-        "status": {
-          "type": "string"
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "Users": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "properties": {
+            "about": { "type": "string" },
+            "dateJoined": { "type": "string", "format": "date" },
+            "image": { "type": "string", "format": "uri" },
+            "name": { "type": "string" },
+            "status": { "type": "string" }
+          },
+          "required": ["about", "dateJoined", "image", "name", "status"]
         }
       },
-      "required": ["about", "dateJoined", "image", "name", "status"]
+      "highScore": { "type": "integer" }
     },
-    "highScore": {
-      "type": "integer"
-    },
-    "lhgBwUcCBrhwsMn2A0cnsoTVp0z2": {
-      "type": "object",
-      "properties": {
-        "about": {
-          "type": "string"
-        },
-        "dateJoined": {
-          "type": "string",
-          "format": "date"
-        },
-        "image": {
-          "type": "string",
-          "format": "uri"
-        },
-        "name": {
-          "type": "string"
-        },
-        "status": {
-          "type": "string"
-        }
-      },
-      "required": ["about", "dateJoined", "image", "name", "status"]
-    }
-  },
-  "required": ["cfjjPmDnCyQ8UjDJQkWJmfo1Gzm1", "highScore", "lhgBwUcCBrhwsMn2A0cnsoTVp0z2"]
-}
+    "required": ["Users", "highScore"]
+  }
+  
