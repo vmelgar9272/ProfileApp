@@ -123,10 +123,10 @@
                     "translatedName": "Label",
                     "reactType": "Text",
                     "properties": {
-                        "Text": "No Name",
+                        "Text": "Edit Name Here",
                         "FontSize": 20,
                         "Height": 25,
-                        "Width": 150,
+                        "Width": 291,
                         "Visible": true,
                         "X": 57,
                         "Y": 10,
@@ -160,7 +160,7 @@
                         "position": "absolute",
                         "edgeOffsets": 459,
                         "ParentId": "96ff0ecd-5794-4969-bbcf-86034312f824",
-                        "children": "No Name",
+                        "children": "Edit Name Here",
                         "letterSpacing": 0,
                         "textDecorationLine": "none",
                         "textDecorationStyle": "solid",
@@ -451,7 +451,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "resizeMode": "stretch",
+                "resizeMode": "cover",
                 "Height": 202,
                 "Width": 202,
                 "Visible": true,
@@ -879,7 +879,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Write something here!",
+                "Text": "Update your status!",
                 "FontSize": 16,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -933,7 +933,7 @@
                 "ParentId": "96ff0ecd-5794-4969-bbcf-86034312f824",
                 "position": "absolute",
                 "edgeOffsets": 318,
-                "children": "Write something here!",
+                "children": "Update your status!",
                 "Font": "Roboto"
             },
             "children": [],
@@ -1281,7 +1281,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Write something here!",
+                "Text": "Create a Bio!",
                 "FontSize": 16,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -1335,7 +1335,7 @@
                 "ParentId": "96ff0ecd-5794-4969-bbcf-86034312f824",
                 "position": "absolute",
                 "edgeOffsets": 438,
-                "children": "Write something here!",
+                "children": "Create a Bio!",
                 "Font": "Roboto"
             },
             "children": [],
