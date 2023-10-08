@@ -44,6 +44,39 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
+                "Y": -10.13330078125,
+                "RelativeX": 0,
+                "RelativeY": -11,
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "9.6%",
+                    "top": "0%"
+                },
+                "style": {
+                    "position": "absolute",
+                    "left": "9.6%",
+                    "top": "0%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "ece55d5c-7dd6-48a2-9b95-bcdf224e9138",
+            "thunkableVersion": 423,
+            "name": "SignUp_AdMob_Banner"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
